@@ -66,5 +66,6 @@ void s_pall(stack_t **head, unsigned int counter);
 void s_pint(stack_t **head, unsigned int counter);
 void s_pop(stack_t **head, unsigned int counter);
 void s_swap(stack_t **head, unsigned int counter);
+void s_add(stack_t **head, unsigned int counter);
 
 #endif /* MONTY_H */
