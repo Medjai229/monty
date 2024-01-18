@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * s_mul - adds the top two elements of the stack
+ * s_mul - multiplies the top two elements of the stack
  * @head: pointer of the stack head
  * @counter: line number
  */
