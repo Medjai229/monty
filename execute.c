@@ -25,6 +25,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"pchar", s_pchar},
 				{"pstr", s_pstr},
 				{"rotl", s_rotl},
+				{"rotr", s_rotr},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
