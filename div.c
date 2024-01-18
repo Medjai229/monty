@@ -39,4 +39,5 @@ void s_div(stack_t **head, unsigned int counter)
 	div = tmp->next->n / tmp->n;
 	tmp->next->n = div;
 	*head = tmp->next;
-	free(tmp)
+	free(tmp);
+}
