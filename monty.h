@@ -61,3 +61,4 @@ void free_stack(stack_t *head);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void s_push(stack_t **h, unsigned int counter);
+void s_pall(stack_t **head, unsigned int counter);
