@@ -26,8 +26,8 @@ void s_mul(stack_t **head, unsigned int counter)
 	}
 
 	tmp = *head;
-	sum = tmp->n * tmp->next->n;
-	tmp->next->n = sum;
+	mul = tmp->n * tmp->next->n;
+	tmp->next->n = mul;
 	*head = tmp->next;
 	free(tmp);
 }
