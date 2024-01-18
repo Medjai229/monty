@@ -6,8 +6,8 @@
  */
 void s_pstr(stack_t **head, unsigned int counter)
 {
-	(void)counter;
 	stack_t *tmp;
+	(void)counter;
 
 	tmp = *head;
 	while (tmp)
