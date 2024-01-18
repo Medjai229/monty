@@ -73,5 +73,6 @@ void s_div(stack_t **head, unsigned int counter);
 void s_mul(stack_t **head, unsigned int counter);
 void s_mod(stack_t **head, unsigned int counter);
 void s_pchar(stack_t **head, unsigned int counter);
+void s_pstr(stack_t **head, unsigned int counter);
 
 #endif /* MONTY_H */
