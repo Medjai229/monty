@@ -76,5 +76,7 @@ void s_pchar(stack_t **head, unsigned int counter);
 void s_pstr(stack_t **head, unsigned int counter);
 void s_rotl(stack_t **head, unsigned int counter);
 void s_rotr(stack_t **head, unsigned int counter);
+void s_stack(stack_t **head, unsigned int counter);
+void q_queue(stack_t **head, unsigned int counter);
 
 #endif /* MONTY_H */
