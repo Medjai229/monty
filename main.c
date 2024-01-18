@@ -1,7 +1,5 @@
 #include "monty.h"
-
 bus_t bus = {NULL, NULL, NULL, 0};
-
 /**
  * main - an interpreter for Monty ByteCodes files
  * @argc: number of arguments
@@ -47,9 +45,7 @@ int main(int argc, char *argv[])
 
 		free(content);
 	}
-
 	free_stack(stack);
 	fclose(file);
-
 	return (0);
 }
